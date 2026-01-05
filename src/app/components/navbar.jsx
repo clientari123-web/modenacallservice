@@ -4,7 +4,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="fixed w-full z-10">
-      <Link href="#pemesanan" className="p-3 w-full justify-center flex bg-white shadow-sm">
+      <Link
+        href="#pemesanan"
+        className="p-3 w-full justify-center flex bg-white shadow-sm"
+      >
         <h1 className="font-semibold text-black">
           Sentuh disini untuk order pemesanan !
         </h1>
@@ -54,7 +57,7 @@ const Navbar = () => {
           </label>
 
           <Link
-            href="https://wa.me/6288290685638"
+            href="https://wa.me/628132022495"
             className="btn bg-white shadow-none text-neutral-600 rounded-full max-lg:hidden"
           >
             Kontak Kami

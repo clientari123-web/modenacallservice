@@ -29,7 +29,7 @@ const Form = () => {
 📝 Catatan: ${formData.catatan}
     `;
 
-    const nomorTujuan = "6288290685638";
+    const nomorTujuan = "628132022495";
     const encodedPesan = encodeURIComponent(pesan);
     const url = `https://wa.me/${nomorTujuan}?text=${encodedPesan}`;
 
@@ -37,7 +37,11 @@ const Form = () => {
   };
 
   return (
-    <form id="pemesanan" onSubmit={handleSubmit} className="md:grid md:grid-cols-2 md:mx-5 gap-4">
+    <form
+      id="pemesanan"
+      onSubmit={handleSubmit}
+      className="md:grid md:grid-cols-2 md:mx-5 gap-4"
+    >
       {[
         ["nama", "Nama Lengkap"],
         ["alamat", "Alamat Lengkap"],

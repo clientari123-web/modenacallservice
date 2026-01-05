@@ -29,12 +29,12 @@ export const metadata = {
   ],
   authors: [{ name: "Modena Call Service" }],
   creator: "Modena Call Service",
-  metadataBase: new URL("https://homeservicemodena.vercel.app"),
+  metadataBase: new URL("https://modenacallservice.com"),
   openGraph: {
     title: "Modena Call Service | Service Kompor ke Rumah",
     description:
       "Layanan resmi Modena Call Service untuk perbaikan dan perawatan kompor gas Modena. Teknisi berpengalaman, cepat, dan bergaransi.",
-    url: "https://modenacallservice.vercel.app",
+    url: "https://modenacallservice.com",
     siteName: "Modena Call Service",
     locale: "id_ID",
     type: "website",

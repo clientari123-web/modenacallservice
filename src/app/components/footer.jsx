@@ -10,7 +10,7 @@ const Footer = () => {
             Jangkauan Area : Surabaya, Jakarta dan Sekitarnya.
           </p>
           <Link
-            href="https://wa.me/6288290685638?"
+            href="https://wa.me/628132022495?"
             className="btn bg-white text-black font-bold border-0 shadow-none px-6 py-3 rounded-full text-sm md:text-base"
           >
             Ayo Sekarang!
@@ -26,12 +26,11 @@ const Footer = () => {
           </p>
 
           <p className="text-sm text-gray-400 text-center">
-            Alamat: Jl. Mayjen Sungkono No.11 Dukuh Pakis, Kec. Dukuh Pakis, Surabaya Barat, Jawa Timur
+            Alamat: Jl. Mayjen Sungkono No.11 Dukuh Pakis, Kec. Dukuh Pakis,
+            Surabaya Barat, Jawa Timur
           </p>
 
-          <p className="text-sm text-gray-400">
-            Indonesia
-          </p>
+          <p className="text-sm text-gray-400">Indonesia</p>
         </aside>
       </footer>
     </>
